@@ -34,7 +34,7 @@ from os import path, getenv
 import os, time 
 
 class Config:
-    API_ID = int(getenv("API_ID", "17264725"))
+    API_ID = int(getenv("API_ID", "12618934"))
     API_HASH = getenv("API_HASH", "e7c6c1e727962d2ade50bald7f4fac8a")
     BOT_TOKEN = getenv("BOT_TOKEN", "7955983025:AAFqrIti8CrhCvPTY0IKV2qu4xnxF96sL40")
  
