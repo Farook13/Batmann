@@ -34,17 +34,17 @@ from os import path, getenv
 import os, time 
 
 class Config:
-    API_ID = int(getenv("API_ID", "0112234"))
-    API_HASH = getenv("API_HASH", "abcdefg")
-    BOT_TOKEN = getenv("BOT_TOKEN", "1234567891:rkndeveloperDEhdhyjjvjjftSEW")
+    API_ID = int(getenv("API_ID", "17264725"))
+    API_HASH = getenv("API_HASH", "e7c6c1e727962d2ade50bald7f4fac8a")
+    BOT_TOKEN = getenv("BOT_TOKEN", "7955983025:AAFqrIti8CrhCvPTY0IKV2qu4xnxF96sL40")
  
     FORCE_SUB = int(getenv("FORCE_SUB", "-1001819787652"))
-    ADMIN = list(map(int, getenv("ADMIN", "6151758586").split()))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002120760645"))
+    ADMIN = list(map(int, getenv("ADMIN", "5032034594").split()))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002467149516"))
     
     # database configs
-    DB_URL = os.environ.get("DB_URL", "")
-    DB_NAME = os.environ.get("DB_NAME", "")
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://pcmovies:pcmovies@cluster0.4vv9ebl.mongodb.net/?retryWrites=true&w=majority")
+    DB_NAME = os.environ.get("DB_NAME", "pcmovies")
     
     #web response 
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
